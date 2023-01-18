@@ -1,6 +1,6 @@
 # feathers-chat
 
-> A Feathers chat application
+> A Feathers chat application with AdminJs
 
 ## About
 

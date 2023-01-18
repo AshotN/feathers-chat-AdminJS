@@ -45,6 +45,7 @@
     "migrate:make": "knex migrate:make"
   },
   "dependencies": {
+    "@adminjs/koa": "^3.0.1",
     "@feathersjs/adapter-commons": "^5.0.0-pre.34",
     "@feathersjs/authentication": "^5.0.0-pre.34",
     "@feathersjs/authentication-client": "^5.0.0-pre.34",
@@ -59,7 +60,11 @@
     "@feathersjs/socketio": "^5.0.0-pre.34",
     "@feathersjs/transport-commons": "^5.0.0-pre.34",
     "@feathersjs/typebox": "^5.0.0-pre.34",
+    "@koa/router": "^12.0.0",
+    "adminjs": "^6.8.0",
+    "adminjs-feathers": "^0.0.6",
     "knex": "^2.3.0",
+    "koa2-formidable": "^1.0.3",
     "sqlite3": "^5.1.4",
     "winston": "^3.8.2"
   },
